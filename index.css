@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+	font-family: 'Nunito Sans', Sans-serif	;
+	background-color: #FFFFFF;
+}
+h1{
+	font-size: 30px;
+}
+ul.top-nav{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 200px;
+	overflow: hidden;
+	background-color: #0059D1;
+}
+
+ul.top-nav li{
+	float: left;
+}
+
+ul.top-nav li a{
+	display: inline-block;
+	color: #FFF;
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 23px;
+}
+
+ul.top-nav li a:hover{
+	background-color: #1C9AFF;
+}
+
+ul.top-nav li.icon{display: none;}
+
+
+	ul.top-nav.responsive li{
+		float: none;
+		display: inline;
+	}
+
+	ul.top-nav.responsive li a{
+		display: block;
+		text-align: left;
+	}
+}
+#menulogo{
+	margin: 0;
+	padding: 0;
+
+}
+#logo{
+  width: 400px;
+	margin-right: 9px;
+}
+
+/*Estilos de página Contacto*/
+
+.Titulo{
+	border-bottom: 5px solid #0059D1;
+	font-family: Oswald;
+    text-align: center;
+    color: #0059D1;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+input[type=submit]:hover {
+    background-color: #c0c0c0;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #0059D1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#Formulario {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+.Nom {
+    text-align: center;
+    color: #0059D1;
+    font-size: 20px;
+}
+
+.form-input{
+	padding-bottom: 10px;
+}
+
+.first-row{
+	margin-top: 100px;
+}
+/*Slideshow :v*/
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+a:hover{
+	text-decoration: none;
+}
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* footer */
+.division{
+	border-radius: 5px;
+	padding-bottom: .1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: #0059D1;
+}
+footer{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Plan de Dios</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="naonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <ul class="top-nav" id="iglnav">
+            <li id="menulogo"><img src="https://lh3.googleusercontent.com/xf9g8_VV1bsCjRloW0uJGTBsAlPUTFJTgZCMpiUiSRhXEJTiJdbGLeb0CxN1Bw0EbCsQyGCsbnieww=w1024-h768-no" id="logo"></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="displayMenu()">&#9776;</a>
+            </li>
+    </ul>
+    <!--/header-->
+
+    <!--Aqui esta el apartado de mensajes al correo-->
+    <div class="container-fluid">
+        <section>
+            <div class="row first-row">
+                <article>
+
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <h3 class="Titulo">D&eacute;janos un mensaje</h3>
+
+                        <div id="Formulario" class="col-xs-10 col-xs-offset-1">
+                            <form name="contactform" method="post" action="send_form_email.php">
+
+                                <!---Este tamaño en px es personalizable -->
+
+                                <div class="form-group">
+                                    <label for="first_name" class="Nom">Nombre:</label>
+
+                                    <br>
+                                    <input type="text" name="first_name" class="col-xs-10 form_control">
+
+                                    <hr>
+                                    <div class="form-group">
+                                        <label for="last_name" class="Nom">Apellido:</label>
+
+                                        <input type="text" name="last_name" class="form_control">
+                                        <div class="form-group">
+                                            <label for="email" class="Nom">E-mail:</label>
+
+                                            <input type="text" name="email" class="form_control">
+                                            <div class="form-group">
+                                                <label for="telephone" class="Nom ">Tel&eacute;fono:</label>
+
+                                                <input type="text" name="telephone" class="form_control">
+                                                <div class="form-group">
+                                                    <label for="message" class="Nom">Mensaje:</label>
+
+                                                    <textarea name="message" style="width:100%" rows="6" class="form_control"></textarea>
+
+                                                    <a href="http://www.ladirecciondetusitio/send_form_email.php">
+                                                        <input type="submit" value="Enviar">
+                                                        <!--Aqui hay que poner la direccion del dominio cuando se compre xd-->
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--/Aqui esta el apartado de mensajes al correo-->
+                </article>
+            </div>
+            <div class="row">
+                <article id="mapa">
+                    <h3 class="Titulo col-xs-10 col-xs-offset-1">Vis&iacute;tanos</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1891.6046675647099!2d-69.83700040551454!3d18.51944003007893!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2s!4v1482353074073" class="col-xs-10 col-xs-offset-1" height="600px" frameborder="0" style="border:0;margin-bottom:50px" allowfullscreen></iframe>
+                </article>
+            </div>
+
+        </section>
+    </div>
+
+    <div class="division">
+            <p></p>
+        </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+                        <h3>Contacto</h2>
+                        <p>C/Arriba abajo #42 <br> Ensanche lskd <br> Santo Domingo, Rep&uacute;blica Dominicana</p>
+
+                        <p>Tel&eacute;fono: 803-928-4893 <br> Correo: plandedios@gmail.com</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+                        <p><em>Preocup&eacute;monos los unos por los otros, a fin de estimularnos al amor y a las buenas obras. No dejemos de congregarnos, como acostumbran hacerlo algunos, sino anim&eacute;monos unos a otros, y con mayor raz&oacute;n ahora que vemos que aquel d&iacute;a se acerca.</em></p>
+                        <p>-Hebreos 10:24-25 </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+                            <img src="https://68.media.tumblr.com/2b40c96140ed8b6b267b484e89050b73/tumblr_oieq8sAWHJ1w0lp4fo1_1280.png" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

@@ -5,9 +5,11 @@ body {
 	font-family: 'Nunito Sans', Sans-serif	;
 	background-color: #FFFFFF;
 }
+
 h1{
 	font-size: 30px;
 }
+
 ul.top-nav{
 	list-style-type: none;
 	margin: 0;
@@ -24,11 +26,11 @@ ul.top-nav li a{
 	display: inline-block;
 	color: #FFF;
 	text-align: center;
-	padding: 27px 25px;
+	padding: 23px 25px;
 	text-decoration: none;
 	transition: 0.3s;
 	font-size: 23px;
-  height: 84px;
+  height: 74px;
 }
 
 ul.top-nav li a:hover{
@@ -37,13 +39,28 @@ ul.top-nav li a:hover{
 
 ul.top-nav li.icon{display: none;}
 
+@media screen and (max-width: 680px){
+  ul.top-nav li:not(:nth-child(2)){display: none;}
+  ul.top-nav li.icon{
+    float: right;
+    display: inline-block;
+  }
+}
 
-	ul.top-nav.responsive li{
+@media screen and (max-width: 680px){
+  ul.top-nav.responsive{position: relative;}
+  ul.top-nav.responsive li.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+ul.top-nav.responsive li{
 		float: none;
 		display: inline;
 	}
 
-	ul.top-nav.responsive li a{
+ul.top-nav.responsive li a{
 		display: block;
 		text-align: left;
 	}
@@ -54,7 +71,7 @@ ul.top-nav li.icon{display: none;}
 
 }
 #logo{
-  width: 400px;
+  width: 351px;
 	margin-right: 9px;
 }
 
@@ -63,12 +80,12 @@ ul.top-nav li.icon{display: none;}
 .Titulo{
 	border-bottom: 5px solid #0059D1;
 	font-family: Oswald;
-    text-align: center;
-    color: #0059D1;
-    font-size: 45px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 20px;
+  text-align: center;
+  color: #0059D1;
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
 
@@ -122,7 +139,7 @@ input[type=submit] {
 /*Slideshow :v*/
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -194,6 +211,18 @@ a:hover{
 @keyframes fade{
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+/*Horarios*/
+.table-title{
+  background-color: #0059D1;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+} 
+
+#tabla-misa:hover, #tabla-grupo:hover{
+  box-shadow: 0px 0px 5px gray;
 }
 
 /* footer */

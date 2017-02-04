@@ -1,0 +1,99 @@
+.go {
+	position: absolute;
+	top: 6px;
+	right: 150px;
+	width: 345px;
+	height: 54px;
+	border-bottom: 1px solid white;
+}
+
+.go:hover #in{
+ 	opacity: 1;
+	transform: translate(0px, 0px); 
+}
+
+.luca:hover .fa-search{
+	opacity: 0;
+	transform: translate(0px, 100px);
+}
+
+.luca:hover .fa-arrow-right{
+	opacity: 1;
+	transform: translate(0px, 0px);
+}
+
+#in {
+    width: 300px;
+    height: 45px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid white; 
+    border-top: 1px solid white;
+    transition-property: width, background-color opacity transform;
+    transition-duration: 0.5s;
+    background-color: #0059D1;
+    font-size: 25px;
+    color: #0059D1;
+    opacity: 0;
+	transform: translate(100px, 0px);
+}
+
+#in:focus {
+	background-color: white;
+	opacity: 1;
+	transform: translate(0px, 0px);
+}
+
+.luca {
+	position: absolute;
+	top: 8px;
+	box-sizing: border-box;
+    border: 1px;
+    border-color: white;
+	margin: auto;
+	left: 300px;
+	width: 45px;
+	height: 45px;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	background-color: white;
+
+}
+
+.go .fa-search{
+	padding: 10px;
+	position: absolute;
+	font-size: 25px;
+	transition-property: opacity transform;
+    transition-duration: 0.5s;
+    color: #0059D1;
+}
+
+.go .fa-arrow-right{
+	padding: 11px;
+	position: absolute;
+	font-size: 25px;
+	opacity: 0;
+	transform: translate(0px, -100px);
+	transition-property: opacity transform;
+    transition-duration: 0.5s;
+    color: #0059D1;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}

@@ -1,128 +1,175 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Plan de Dios</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="naonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-		<link rel="stylesheet" type="text/css" href="css/input.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script src="js/index.js"></script>
-	</head>
-	<body>
-		<!--Navigation bar-->
-		<ul class="top-nav" id="iglnav">
-            <a href="index.html"><li id="menulogo"><img src="https://lh3.googleusercontent.com/xf9g8_VV1bsCjRloW0uJGTBsAlPUTFJTgZCMpiUiSRhXEJTiJdbGLeb0CxN1Bw0EbCsQyGCsbnieww=w1024-h768-no" id="logo"></li></a>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="predicas.html">Pr&eacute;dicas</a></li>
-            <li><a href="eventos.html">Eventos</a></li>
-            <li class="icon">
-                <a href="javascript:void(0);" onclick="displayMenu()">&#9776;</a>
-            </li>
-            <div class="go">
+
+<head>
+    <title>Plan de Dios</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="naonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/input.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <ul class="top-nav" id="iglnav">
+        <a href="index.html">
+            <li id="menulogo"><img src="https://lh3.googleusercontent.com/xf9g8_VV1bsCjRloW0uJGTBsAlPUTFJTgZCMpiUiSRhXEJTiJdbGLeb0CxN1Bw0EbCsQyGCsbnieww=w1024-h768-no" id="logo"></li>
+        </a>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="predicas.html">Pr&eacute;dicas</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" onclick="displayMenu()">&#9776;</a>
+        </li>
+
+    </ul>
+
+    <!--Search-->
+
+    <!-- <div class="go">
 				<input id="in" >
 				<div class="luca">
-					<span class="fa fa-search fa-3x"></span>
-					<span class="fa fa-arrow-right fa-3x"></span>
+					<span class="fa fa-search fa-2x"></span>
+					<span class="fa fa-arrow-right fa-2x"></span>
 				</div>
-			</div>
-   		 </ul>
+			</div>-->
 
-		<!-- SlideShow-->
-		 <div class="slideshow-container">
-		  <div class="mySlides fade">
-		    <div class="numbertext">1 / 3</div>
-		    <a href="#horarios"><img src="https://lh3.googleusercontent.com/TBEltaniqm9zrVHduYilPtALS1CO-p_t4ejWtwWDQMwdknn-INtLM-iqYcWfo11FrQU_0fxHz6sFXGhMlkRa5e_W6tsR39A-mg=w1280-h768-rw-no" style="width:100%"></a>
-		    <div class="text">¡Mira nuestros horarios!</div>
-		  </div>
+    <!-- SlideShow-->
 
-		  <div class="mySlides fade">
-		    <div class="numbertext">2 / 3</div>
-		    <a href="contacto.html#mapa"><img src="https://lh3.googleusercontent.com/xtKql5NKO04BM_zNDjtCUsGpwsxojAxYsXwx6mpfFhhkROV1k3wN2T_8uYJPWIE9PUDSHCjqFV478aWUaOz6MUi2EdnVUFceyA=w1280-h768-rw-no" style="width:100%"></a>
-		    <div class="text">¡Visitanos!</div>
-		  </div>
 
-		  <div class="mySlides fade">
-		    <div class="numbertext">3 / 3</div>
-		    <a><img src="https://lh3.googleusercontent.com/5EY-Sc9CErzc5FIM12APNrXXqtMNLq55ORXs7LCtLjqx-vWpObfmk4aCaTettyrTWhFKp-rZjjMzx2LVm9ZM1rt4DNSLj8EK1A=w1280-h768-rw-no" style="width:100%"></a>
-		    <div class="text">¡Con&oacute;cenos!</div>
-		  </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <a href="#horarios"><img src="https://lh3.googleusercontent.com/TBEltaniqm9zrVHduYilPtALS1CO-p_t4ejWtwWDQMwdknn-INtLM-iqYcWfo11FrQU_0fxHz6sFXGhMlkRa5e_W6tsR39A-mg=w1280-h768-rw-no" style="width:100%"></a>
+            <div class="text">¡Mira nuestros horarios!</div>
+        </div>
 
-		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-		</div>
-		<br>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <a href="contacto.html#mapa"><img src="https://lh3.googleusercontent.com/xtKql5NKO04BM_zNDjtCUsGpwsxojAxYsXwx6mpfFhhkROV1k3wN2T_8uYJPWIE9PUDSHCjqFV478aWUaOz6MUi2EdnVUFceyA=w1280-h768-rw-no" style="width:100%"></a>
+            <div class="text">¡Visitanos!</div>
+        </div>
 
-		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span>
-		  <span class="dot" onclick="currentSlide(2)"></span>
-		  <span class="dot" onclick="currentSlide(3)"></span>
-		</div>
-		<div class="container-fluid" id="horarios">
-			<div class="row">
-				<h3 class="Titulo col-xs-10 col-xs-offset-1">Horarios</h3>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-5 col-sm-offset-1">
-					<table class="table table-hover" id="tabla-misa">
-						<thead>
-							<tr class="table-title">
-								<th colspan="2" style="text-align:center">Misas</th>
-							<tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Martes-Viernes</td>
-								<td>6:00PM <br> 10:00AM</td>
-							</tr>
-							<tr>
-								<td>S&aacute;bados</td>
-								<td>6:00PM <br>10:00AM</td>
-							</tr>
-							<tr>
-								<td>Domingos</td>
-								<td>8:00AM <br> 10:00AM <br> 6:00PM</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div class="col-xs-12 col-sm-5">
-					<table class="table" id="tabla-grupo">
-						<thead>
-							<tr class="table-title">
-								<th colspan="2" style="text-align:center">Grupo Juvenil</th>
-							<tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>S&aacute;bados</td>
-								<td>2:00PM</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
-		<p></p>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <a><img src="https://lh3.googleusercontent.com/5EY-Sc9CErzc5FIM12APNrXXqtMNLq55ORXs7LCtLjqx-vWpObfmk4aCaTettyrTWhFKp-rZjjMzx2LVm9ZM1rt4DNSLj8EK1A=w1280-h768-rw-no" style="width:100%"></a>
+            <div class="text">¡Con&oacute;cenos!</div>
+        </div>
 
-		<div class="division">
-			<p></p>
-		</div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
 
-		<footer>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-12 col-sm-4 col-sm-offset-1">
-						<h3>Contacto</h2>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <div class="container-fluid" id="horarios">
+        <div class="row">
+            <h3 class="Titulo col-xs-10 col-xs-offset-1">Horarios</h3>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+                <table class="table table-hover" id="tabla-misa">
+                    <thead>
+                        <tr class="table-title">
+                            <th colspan="2" style="text-align:center">Misas</th>
+                            <tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Martes-Viernes</td>
+                            <td>6:00PM
+                                <br> 10:00AM</td>
+                        </tr>
+                        <tr>
+                            <td>S&aacute;bados</td>
+                            <td>6:00PM
+                                <br>10:00AM</td>
+                        </tr>
+                        <tr>
+                            <td>Domingos</td>
+                            <td>8:00AM
+                                <br> 10:00AM
+                                <br> 6:00PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <table class="table" id="tabla-grupo">
+                    <thead>
+                        <tr class="table-title">
+                            <th colspan="2" style="text-align:center">Grupo Juvenil</th>
+                            <tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>S&aacute;bados</td>
+                            <td>2:00PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <p></p>
+
+    <div class="division">
+        <p></p>
+
+
+    </div>
+    
+    <!--Predicadores-->
+    
+    <div id="predicadores">
+        
+        
+        
+        
+    </div>
+    
+    
+    
+    
+    
+    <!--Susbribete al Boletin-->
+
+    <div id="suscribete">
+    <h3 id="titulo1">Suscribete al bolet&iacute;n</h3>
+    <h4 id="titulo2">Recibe la palabra de Dios en tu correo</h4>
+    <form>
+    
+        <input id="nombre" type="text" value="Nombre">
+       
+        <input  id="correo"type="email" value="Correo"> 
+        
+               <button type="submit">Suscribete</button>       
+    </form>
+
+
+
+
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+                    <h3>Contacto</h2>
 						<p>Calle 4 #41 <br> Ensanche La Paz (La Feria)<br> Santo Domingo,D.N. Rep&uacute;blica Dominicana</p>
 
 						<p>Tel&eacute;fono: 829-256-0642 <br> Correo: plandedios@gmail.com</p>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-sm-offset-2">
-						<p><em>Preocup&eacute;monos los unos por los otros, a fin de estimularnos al amor y a las buenas obras. No dejemos de congregarnos, como acostumbran hacerlo algunos, sino anim&eacute;monos unos a otros, y con mayor raz&oacute;n ahora que vemos que aquel d&iacute;a se acerca.</em></p>
-						<p>-Hebreos 10:24-25 </p>
+						<p class="escrito"><em>Preocup&eacute;monos los unos por los otros, a fin de estimularnos al amor y a las buenas obras. No dejemos de congregarnos, como acostumbran hacerlo algunos, sino anim&eacute;monos unos a otros, y con mayor raz&oacute;n ahora que vemos que aquel d&iacute;a se acerca.</em></p>
+						<p>&nbsp;-Hebreos 10:24-25 </p>
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 col-sm-offset-4">

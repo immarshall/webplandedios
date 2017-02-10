@@ -60,6 +60,7 @@ ul.top-nav li.icon {
 @media screen and (max-width: 680px) {
     ul.top-nav.responsive {
         position: relative;
+        
     }
     ul.top-nav.responsive li.icon {
         position: absolute;
@@ -67,8 +68,8 @@ ul.top-nav li.icon {
         top: 0;
     }
     ul.top-nav.responsive li {
-        float: none;
-        display: inline;
+        float: right;
+        display: table-column;
     }
     ul.top-nav.responsive li a {
         display: block;
